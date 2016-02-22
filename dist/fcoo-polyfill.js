@@ -22,7 +22,7 @@
 
 	function FcooPolyfill( $elem, options, plugin_count) {
 		this.plugin_count = plugin_count;
-		this.VERSION = "0.0.2";
+		this.VERSION = "0.0.3";
 		this.options = $.extend({
 			//Default options
 		}, options || {} );

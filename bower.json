@@ -1,6 +1,6 @@
 {
   "name": "fcoo-polyfill",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "homepage": "https://github.com/FCOO/fcoo-polyfill",
   "authors": [
     "Niels Holt nho@fcoo.dk"
@@ -9,7 +9,9 @@
   "main": [
     "dist/fcoo-polyfill.min.js",
     "dist/fcoo-polyfill.min.css",
-    "dist/typedarray.js"
+    "dist/typedarray.js",
+    "dist/matchMedia.js",
+    "dist/matchMedia.addListener.js"
   ],
   "repository": {
     "type": "git",
