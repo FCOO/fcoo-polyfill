@@ -1,6 +1,6 @@
 {
   "name": "fcoo-polyfill",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "https://github.com/FCOO/fcoo-polyfill",
   "authors": [
     "Niels Holt nho@fcoo.dk"
@@ -15,17 +15,7 @@
     "type": "git",
     "url": "git://github.com/FCOO/fcoo-polyfill.git"
   },
-  "dependencies": {
-    "matchMedia": "https://github.com/paulirish/matchMedia.js.git#^0.3.0"
-  },
-  "overrides": {
-    "matchMedia": {
-      "main": [
-        "matchMedia.js",
-        "matchMedia.addListener.js"
-      ]
-    }
-  },
+  "dependencies": {},
   "devDependencies": {
     "bourbon": "latest",
     "modernizr-mixin": "latest",
