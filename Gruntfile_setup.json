@@ -9,7 +9,8 @@
   "afterProdCmd"								: "",			//Cmd to be run at the end of prod-task
   "afterDevCmd"									: "",			//Cmd to be run at the end of dev-task
 
-  "exitOnJSHintError"						: false,		//if false any error in JSHint will not exit the task
-	"cleanUp"											: false,		//In debug: set to false
-	"bowerCheckExistence"					: true		//true=all bower components must be pressent. false=allows missing files (only in debug)
+  "exitOnJSHintError"						: true,		//if false any error in JSHint will not exit the task
+	"cleanUp"											: true,		//In debug: set to false
+	"bowerCheckExistence"					: true,		//true=all bower components must be pressent. false=allows missing files (only in debug)
+	"bowerDebugging"							: false
 }

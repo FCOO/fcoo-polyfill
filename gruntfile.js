@@ -33,8 +33,7 @@ module.exports = function(grunt) {
 													exitOnJSHintError					: true,		//if false any error in JSHint will not exit the task
 													cleanUp										: true,		//In debug: set to false
 													bowerCheckExistence				: true,		//true=all bower components must be pressent. false=allows missing files (only in debug)
-
-
+													bowerDebugging						: false		//Set to true in debug
 
 												}),
 			isApplication								= !!gruntfile_setup.isApplication,
@@ -44,6 +43,7 @@ module.exports = function(grunt) {
 			minimizeBowerComponentsCSS	= !!gruntfile_setup.minimizeBowerComponentsCSS,
 			cleanUp											= !!gruntfile_setup.cleanUp,
 			bowerCheckExistence					= !!gruntfile_setup.bowerCheckExistence,
+			bowerDebugging							= !!gruntfile_setup.bowerDebugging,
 
 
 			//new variable for easy syntax
@@ -317,7 +317,7 @@ module.exports = function(grunt) {
 				dest: 'temp',
 				options: {
 					checkExistence: bowerCheckExistence,
-					debugging			: true,
+					debugging			: bowerDebugging,
 					paths: {
 						bowerDirectory	: 'bower_components',
 						bowerrc					: '.bowerrc',
@@ -367,7 +367,7 @@ module.exports = function(grunt) {
 
 		// ** exec **
 		exec: {
-			bower_update: 'bower update',
+			bower_update: 'bower update --force',
 			npm_install	: 'npm install'
 		},
 

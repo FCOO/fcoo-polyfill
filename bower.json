@@ -1,6 +1,6 @@
 {
   "name": "fcoo-polyfill",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "homepage": "https://github.com/FCOO/fcoo-polyfill",
   "authors": [
     "Niels Holt nho@fcoo.dk"
@@ -17,7 +17,9 @@
     "type": "git",
     "url": "git://github.com/FCOO/fcoo-polyfill.git"
   },
-  "dependencies": {},
+  "dependencies": {
+    "fcoo-modernizr-mediaquery-device": "https://github.com/FCOO/fcoo-modernizr-mediaquery-device.git#latest"
+  },
   "devDependencies": {
     "bourbon": "latest",
     "modernizr-mixin": "latest",
