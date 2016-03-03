@@ -32,3 +32,8 @@
 .ie8 img.fcoo-legend-item-image {
   height: 40px;
   width: 250; }
+
+.ie8 .leaflet-control-layers {
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  max-height: 541px; }
