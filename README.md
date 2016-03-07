@@ -43,8 +43,18 @@ https://github.com/inexorabletash/polyfill contains many different polyfill
 It contains both js-files, documentation, and demo
 
 #### Included file(s)
+- `typedarray.js` - https://www.khronos.org/registry/typedarray/specs/latest/
+- `es5.js` - ECMAScript 5 Polyfills: https://github.com/inexorabletash/polyfill/blob/master/es5.md
 
-`typedarray.js` https://www.khronos.org/registry/typedarray/specs/latest/
+
+### jQuery-ajaxTransport-XDomainRequest
+
+https://github.com/MoonScript/jQuery-ajaxTransport-XDomainRequest.git jQuery ajaxTransport extension that uses XDomainRequest for IE8 and IE9
+
+#### Included file(s)
+`jQuery.XDomainRequest.js` 
+
+
 
 
 
