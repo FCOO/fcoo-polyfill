@@ -1,32 +1,20 @@
 {
   "name": "fcoo-polyfill",
-  "version": "1.2.0",
+  "version": "2.0.0",
   "homepage": "https://github.com/FCOO/fcoo-polyfill",
   "authors": [
     "Niels Holt nho@fcoo.dk"
   ],
   "description": "",
   "main": [
-    "dist/fcoo-polyfill.min.js",
-    "dist/fcoo-polyfill.min.css",
-    "dist/typedarray.js",
-    "dist/es5.js",
-    "dist/matchMedia.js",
-    "dist/matchMedia.addListener.js",
-    "dist/jQuery.XDomainRequest.js"
+    "dist/fcoo-polyfill.js"
   ],
   "repository": {
     "type": "git",
     "url": "git://github.com/FCOO/fcoo-polyfill.git"
   },
-  "dependencies": {
-    "fcoo-modernizr-mediaquery-device": "https://github.com/FCOO/fcoo-modernizr-mediaquery-device.git#latest"
-  },
-  "devDependencies": {
-    "bourbon": "latest",
-    "modernizr-mixin": "latest",
-    "mathsass": "latest"
-  },
+  "dependencies": {},
+  "devDependencies": {},
   "license": "MIT",
   "ignore": [
     "**/.*",
