@@ -17,9 +17,10 @@ Since many of the included packages don't have a complete `main` in `bower.json`
 To include a file from one of the packages (named `PACKAGENAME`):
 
 1. **Copy** the file from `/src/_PACKAGENAME/` to `/src/`
+2. Optional: Rename the file with prefix `n_` `n=1,2,3,4..` to set the order the files are included
 3. **Build** the repository by running `>grunt build` or `>grunt push`
 
-NOTE: Since `fcoo-polyfill` directly includes source files from others packages the `.eslintrc` has been modified to allow the included fiels to pass the eslint check
+NOTE: Since `fcoo-polyfill` directly includes source files from others packages the `.eslintrc` has been modified to allow the included files to pass the eslint check
 
 ## Included packages and files
 
