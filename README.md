@@ -41,6 +41,10 @@ jQuery ajaxTransport extension that uses XDomainRequest for IE8 and IE9
 
 #### Included file(s): `jQuery.XDomainRequest.js`
 
+### [console-polyfill](https://github.com/paulmillr/console-polyfill)
+Some mobile browsere adn IE9 do not support `console.log` and other methods. 
+`console-polyfill` prevents error in thiese browsers when using `console.log(..)` etc.
+
 ## Copyright and License
 This plugin is licensed under the [MIT license](https://github.com/FCOO/fcoo-polyfill/LICENSE).
 
