@@ -17,15 +17,10 @@
     "allowInlineConfig": true,
 
     "rules": {
-        "strict"                  : "warn",
+        "strict"                  : "error",
         "camelcase"               : "off",
         "no-mixed-spaces-and-tabs": "warn",
         "semi"                    : "warn",
-        "no-unused-vars"          : "warn",
-        "no-extra-semi"           : "warn",
-        "no-empty"                : "warn",
-        "no-extra-boolean-cast"   : "warn",
-        "no-undef"                : "off"
-
+        "no-extra-semi"           : "warn"
     }
 }
