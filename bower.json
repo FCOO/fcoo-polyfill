@@ -1,6 +1,6 @@
 {
   "name": "fcoo-polyfill",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "homepage": "https://github.com/FCOO/fcoo-polyfill",
   "authors": [
     "Niels Holt nho@fcoo.dk"
@@ -14,7 +14,7 @@
     "url": "git://github.com/FCOO/fcoo-polyfill.git"
   },
   "dependencies": {
-    "console-polyfill": "^0.2.3"
+    "console-polyfill": "latest"
   },
   "devDependencies": {},
   "license": "MIT",
