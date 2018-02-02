@@ -17,6 +17,10 @@ The repository includes the following *polyfill(s)*
 Some mobile browser do not support `console.log` and other methods. 
 `console-polyfill` prevents error in these browsers when using `console.log(..)` etc.
 
+### [babel-polyfill](https://github.com/nicksrandall/babel-polyfill)
+Using the deprecated version from https://github.com/nicksrandall/babel-polyfill since it have a `bower.json`
+The current version can be found at https://github.com/babel/babel/tree/master/packages/babel-polyfill
+
 ## Copyright and License
 This plugin is licensed under the [MIT license](https://github.com/FCOO/fcoo-polyfill/LICENSE).
 
